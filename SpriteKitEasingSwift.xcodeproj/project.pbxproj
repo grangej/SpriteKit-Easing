@@ -10,6 +10,9 @@
 		3665FD331A93D8A0000D488C /* SpriteKit-Easing-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3665FD321A93D8A0000D488C /* SpriteKit-Easing-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3665FD391A93D8A0000D488C /* SpriteKitEasingSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD2D1A93D8A0000D488C /* SpriteKitEasingSwift.framework */; };
 		3665FD401A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD3F1A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift */; };
+		3665FD531A93DEF5000D488C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD521A93DEF5000D488C /* SpriteKit.framework */; };
+		3665FD571A93E29D000D488C /* SKAction+Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD561A93E29D000D488C /* SKAction+Easing.swift */; };
+		3665FD591A93E374000D488C /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD581A93E374000D488C /* Easing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		3665FD4F1A93DC66000D488C /* SKEase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEase.h; sourceTree = "<group>"; };
 		3665FD501A93DC66000D488C /* SKEase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEase.m; sourceTree = "<group>"; };
 		3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit-Easing-Prefix.pch"; sourceTree = "<group>"; };
+		3665FD521A93DEF5000D488C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3665FD561A93E29D000D488C /* SKAction+Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Easing.swift"; sourceTree = "<group>"; };
+		3665FD581A93E374000D488C /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3665FD531A93DEF5000D488C /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,9 @@
 		3665FD231A93D8A0000D488C = {
 			isa = PBXGroup;
 			children = (
+				3665FD581A93E374000D488C /* Easing.swift */,
+				3665FD561A93E29D000D488C /* SKAction+Easing.swift */,
+				3665FD521A93DEF5000D488C /* SpriteKit.framework */,
 				3665FD491A93DC66000D488C /* LICENSE */,
 				3665FD4A1A93DC66000D488C /* README.md */,
 				3665FD4B1A93DC66000D488C /* SpriteKit-Easing */,
@@ -233,6 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3665FD591A93E374000D488C /* Easing.swift in Sources */,
+				3665FD571A93E29D000D488C /* SKAction+Easing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +355,7 @@
 		3665FD441A93D8A0000D488C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -352,12 +365,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = SpriteKitEasingSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3665FD451A93D8A0000D488C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
