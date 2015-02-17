@@ -1,6 +1,8 @@
-#SpriteKit-Easing
+#SpriteKit-Easing-Swift
 
-###Better Easing for SpriteKit!
+###Better Easing for SpriteKit! (Swift port)
+
+This is a port of the Objective C project SpriteKit-Easing
 
 SpriteKit by default uses the easing curve built by Apple into iOS. While this is an awesome curve to use for UI and more traditional mobile apps game development demands more than 2 functions. The goal of this library is to port a set of standard easing functions into the SpriteKit framework as actions.
 
@@ -43,3 +45,5 @@ SKAction* action = [SKEase MoveToWithNode:node EaseFunction:CurveTypeSine Mode:E
 ####More to come... stay tuned...
 
 Thanks to [AHEasing](https://github.com/warrenm/AHEasing) for helping me make sense of this easing nonsense!
+
+
