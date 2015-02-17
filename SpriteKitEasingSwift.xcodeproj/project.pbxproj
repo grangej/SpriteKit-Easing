@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3665FD331A93D8A0000D488C /* SpriteKit-Easing-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3665FD321A93D8A0000D488C /* SpriteKit-Easing-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3665FD391A93D8A0000D488C /* SpriteKit-Easing-Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD2D1A93D8A0000D488C /* SpriteKit-Easing-Swift.framework */; };
+		3665FD391A93D8A0000D488C /* SpriteKitEasingSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD2D1A93D8A0000D488C /* SpriteKitEasingSwift.framework */; };
 		3665FD401A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD3F1A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +23,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3665FD2D1A93D8A0000D488C /* SpriteKit-Easing-Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SpriteKit-Easing-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3665FD2D1A93D8A0000D488C /* SpriteKitEasingSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitEasingSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3665FD311A93D8A0000D488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3665FD321A93D8A0000D488C /* SpriteKit-Easing-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit-Easing-Swift.h"; sourceTree = "<group>"; };
-		3665FD381A93D8A0000D488C /* SpriteKit-Easing-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpriteKit-Easing-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3665FD381A93D8A0000D488C /* SpriteKitEasingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitEasingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3665FD3E1A93D8A0000D488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3665FD3F1A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_Easing_SwiftTests.swift; sourceTree = "<group>"; };
+		3665FD491A93DC66000D488C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3665FD4A1A93DC66000D488C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3665FD4C1A93DC66000D488C /* easing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		3665FD4D1A93DC66000D488C /* easing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		3665FD4E1A93DC66000D488C /* EasingDeclarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasingDeclarations.h; sourceTree = "<group>"; };
+		3665FD4F1A93DC66000D488C /* SKEase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEase.h; sourceTree = "<group>"; };
+		3665FD501A93DC66000D488C /* SKEase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEase.m; sourceTree = "<group>"; };
+		3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit-Easing-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3665FD391A93D8A0000D488C /* SpriteKit-Easing-Swift.framework in Frameworks */,
+				3665FD391A93D8A0000D488C /* SpriteKitEasingSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +61,9 @@
 		3665FD231A93D8A0000D488C = {
 			isa = PBXGroup;
 			children = (
+				3665FD491A93DC66000D488C /* LICENSE */,
+				3665FD4A1A93DC66000D488C /* README.md */,
+				3665FD4B1A93DC66000D488C /* SpriteKit-Easing */,
 				3665FD2F1A93D8A0000D488C /* SpriteKit-Easing-Swift */,
 				3665FD3C1A93D8A0000D488C /* SpriteKit-Easing-SwiftTests */,
 				3665FD2E1A93D8A0000D488C /* Products */,
@@ -62,8 +73,8 @@
 		3665FD2E1A93D8A0000D488C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3665FD2D1A93D8A0000D488C /* SpriteKit-Easing-Swift.framework */,
-				3665FD381A93D8A0000D488C /* SpriteKit-Easing-SwiftTests.xctest */,
+				3665FD2D1A93D8A0000D488C /* SpriteKitEasingSwift.framework */,
+				3665FD381A93D8A0000D488C /* SpriteKitEasingSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +113,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3665FD4B1A93DC66000D488C /* SpriteKit-Easing */ = {
+			isa = PBXGroup;
+			children = (
+				3665FD4C1A93DC66000D488C /* easing.c */,
+				3665FD4D1A93DC66000D488C /* easing.h */,
+				3665FD4E1A93DC66000D488C /* EasingDeclarations.h */,
+				3665FD4F1A93DC66000D488C /* SKEase.h */,
+				3665FD501A93DC66000D488C /* SKEase.m */,
+				3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */,
+			);
+			path = "SpriteKit-Easing";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -116,9 +140,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3665FD2C1A93D8A0000D488C /* SpriteKit-Easing-Swift */ = {
+		3665FD2C1A93D8A0000D488C /* SpriteKitEasingSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3665FD431A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKit-Easing-Swift" */;
+			buildConfigurationList = 3665FD431A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKitEasingSwift" */;
 			buildPhases = (
 				3665FD281A93D8A0000D488C /* Sources */,
 				3665FD291A93D8A0000D488C /* Frameworks */,
@@ -129,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = "SpriteKit-Easing-Swift";
+			name = SpriteKitEasingSwift;
 			productName = "SpriteKit-Easing-Swift";
-			productReference = 3665FD2D1A93D8A0000D488C /* SpriteKit-Easing-Swift.framework */;
+			productReference = 3665FD2D1A93D8A0000D488C /* SpriteKitEasingSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3665FD371A93D8A0000D488C /* SpriteKit-Easing-SwiftTests */ = {
+		3665FD371A93D8A0000D488C /* SpriteKitEasingSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3665FD461A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKit-Easing-SwiftTests" */;
+			buildConfigurationList = 3665FD461A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKitEasingSwiftTests" */;
 			buildPhases = (
 				3665FD341A93D8A0000D488C /* Sources */,
 				3665FD351A93D8A0000D488C /* Frameworks */,
@@ -147,9 +171,9 @@
 			dependencies = (
 				3665FD3B1A93D8A0000D488C /* PBXTargetDependency */,
 			);
-			name = "SpriteKit-Easing-SwiftTests";
+			name = SpriteKitEasingSwiftTests;
 			productName = "SpriteKit-Easing-SwiftTests";
-			productReference = 3665FD381A93D8A0000D488C /* SpriteKit-Easing-SwiftTests.xctest */;
+			productReference = 3665FD381A93D8A0000D488C /* SpriteKitEasingSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3665FD271A93D8A0000D488C /* Build configuration list for PBXProject "SpriteKit-Easing-Swift" */;
+			buildConfigurationList = 3665FD271A93D8A0000D488C /* Build configuration list for PBXProject "SpriteKitEasingSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +205,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3665FD2C1A93D8A0000D488C /* SpriteKit-Easing-Swift */,
-				3665FD371A93D8A0000D488C /* SpriteKit-Easing-SwiftTests */,
+				3665FD2C1A93D8A0000D488C /* SpriteKitEasingSwift */,
+				3665FD371A93D8A0000D488C /* SpriteKitEasingSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +249,7 @@
 /* Begin PBXTargetDependency section */
 		3665FD3B1A93D8A0000D488C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3665FD2C1A93D8A0000D488C /* SpriteKit-Easing-Swift */;
+			target = 3665FD2C1A93D8A0000D488C /* SpriteKitEasingSwift */;
 			targetProxy = 3665FD3A1A93D8A0000D488C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -326,7 +350,7 @@
 				INFOPLIST_FILE = "SpriteKit-Easing-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteKitEasingSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -341,7 +365,7 @@
 				INFOPLIST_FILE = "SpriteKit-Easing-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteKitEasingSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -359,7 +383,7 @@
 				);
 				INFOPLIST_FILE = "SpriteKit-Easing-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteKitEasingSwiftTests;
 			};
 			name = Debug;
 		};
@@ -372,14 +396,14 @@
 				);
 				INFOPLIST_FILE = "SpriteKit-Easing-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteKitEasingSwiftTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3665FD271A93D8A0000D488C /* Build configuration list for PBXProject "SpriteKit-Easing-Swift" */ = {
+		3665FD271A93D8A0000D488C /* Build configuration list for PBXProject "SpriteKitEasingSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3665FD411A93D8A0000D488C /* Debug */,
@@ -388,21 +412,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3665FD431A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKit-Easing-Swift" */ = {
+		3665FD431A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKitEasingSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3665FD441A93D8A0000D488C /* Debug */,
 				3665FD451A93D8A0000D488C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3665FD461A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKit-Easing-SwiftTests" */ = {
+		3665FD461A93D8A0000D488C /* Build configuration list for PBXNativeTarget "SpriteKitEasingSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3665FD471A93D8A0000D488C /* Debug */,
 				3665FD481A93D8A0000D488C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
