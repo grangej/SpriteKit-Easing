@@ -41,22 +41,30 @@ func quadraticEaseIn(perecentTimeElapsed: Double) -> Double {
 
 /**
 
-Modeled after the piecewise quadratic
-    y = (1/2)((2x)^2)             ; [0, 0.5)
-    y = -(1/2)((2x-1)*(2x-3) - 1) ; [0.5, 1]
+Modeled after the parabola y = -x^2 + 2x
 
 :param: perecentTimeElapsed Double repreesenting a the time elasped as value from 0.0 -> 1.0
 
-:returns: Double modfied with the piecewise function :
-    y = (1/2)((2x)^2)             ; [0, 0.5)
-    y = -(1/2)((2x-1)*(2x-3) - 1) ; [0.5, 1]
-
+:returns: Double modfied with the parabola function y = -x^2 + 2x
 */
 func quadraticEaseOut(percentTimeElapsed: Double) -> Double {
     
     return -(percentTimeElapsed * (percentTimeElapsed - 2))
 }
 
+/**
+
+Modeled after the piecewise quadratic
+y = (1/2)((2x)^2)             ; [0, 0.5)
+y = -(1/2)((2x-1)*(2x-3) - 1) ; [0.5, 1]
+
+:param: perecentTimeElapsed Double repreesenting a the time elasped as value from 0.0 -> 1.0
+
+:returns: Double modfied with the piecewise function :
+y = (1/2)((2x)^2)             ; [0, 0.5)
+y = -(1/2)((2x-1)*(2x-3) - 1) ; [0.5, 1]
+
+*/
 func quadraticEaseInOut(percentTimeElapsed: Double) -> Double {
     
     if(percentTimeElapsed < 0.5) {
