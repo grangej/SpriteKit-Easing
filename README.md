@@ -41,9 +41,13 @@ node.position = CGPointMake(0.0, 0.0)
 //Add child to scene here
 self.addChild(node)
 
-let action: SKAction = SKAction.moveNode(node, endPosition(CGVectorMake(100.0,100.0), curveType: CurveType.CurveTypeQuadratic, mode: EasingMode.EaseOut duration: 0.5)
+if let action: SKAction = SKAction.moveNode(node, endPosition(CGVectorMake(100.0,100.0), curveType: CurveType.CurveTypeQuadratic, mode: EasingMode.EaseOut duration: 0.5) {
+    
+    node.runAction(action)
 
-node.runAction(action)
+}
+
+
 
 // The rest of the library follows this syntax with the exception of the Float and Point
 // Those add a setter that can be used to update a variable of your choice as the action updates
