@@ -41,8 +41,8 @@
 		3665FD501A93DC66000D488C /* SKEase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEase.m; sourceTree = "<group>"; };
 		3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit-Easing-Prefix.pch"; sourceTree = "<group>"; };
 		3665FD521A93DEF5000D488C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		3665FD561A93E29D000D488C /* SKAction+Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKAction+Easing.swift"; path = "../SKAction+Easing.swift"; sourceTree = "<group>"; };
-		3665FD581A93E374000D488C /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Easing.swift; path = ../Easing.swift; sourceTree = "<group>"; };
+		3665FD561A93E29D000D488C /* SKAction+Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Easing.swift"; sourceTree = "<group>"; };
+		3665FD581A93E374000D488C /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
