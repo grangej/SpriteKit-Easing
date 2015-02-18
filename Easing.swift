@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 
+typealias EasingFunction = Double -> Double
+
 /**
 
 Modeled after the line y = x
@@ -18,7 +20,7 @@ Modeled after the line y = x
 
 :returns: Double modfied with the Liniear function y = x
 */
-func LinearInterpolation(perecentTimeElapsed: Double) -> Double {
+func linearInterpolation(perecentTimeElapsed: Double) -> Double {
     
     return perecentTimeElapsed
     
@@ -32,7 +34,7 @@ Modeled after the parabola y = x^2
 
 :returns: Double modfied with the parabola function y = x^2
 */
-func QuadraticEaseIn(perecentTimeElapsed: Double) -> Double {
+func quadraticEaseIn(perecentTimeElapsed: Double) -> Double {
     
     return perecentTimeElapsed * perecentTimeElapsed
 }
@@ -50,12 +52,12 @@ Modeled after the piecewise quadratic
     y = -(1/2)((2x-1)*(2x-3) - 1) ; [0.5, 1]
 
 */
-func QuadraticEaseOut(percentTimeElapsed: Double) -> Double {
+func quadraticEaseOut(percentTimeElapsed: Double) -> Double {
     
     return -(percentTimeElapsed * (percentTimeElapsed - 2))
 }
 
-func QuadraticEaseInOut(percentTimeElapsed: Double) -> Double {
+func quadraticEaseInOut(percentTimeElapsed: Double) -> Double {
     
     if(percentTimeElapsed < 0.5) {
         
