@@ -95,8 +95,7 @@
 				3665FD321A93D8A0000D488C /* SpriteKitEasingSwift.h */,
 				3665FD301A93D8A0000D488C /* Supporting Files */,
 			);
-			name = SpriteKitEasingSwift;
-			path = "SpriteKit-Easing-Swift";
+			path = SpriteKitEasingSwift;
 			sourceTree = "<group>";
 		};
 		3665FD301A93D8A0000D488C /* Supporting Files */ = {
@@ -113,8 +112,7 @@
 				3665FD3F1A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift */,
 				3665FD3D1A93D8A0000D488C /* Supporting Files */,
 			);
-			name = SpriteKitEasingSwiftTests;
-			path = "SpriteKit-Easing-SwiftTests";
+			path = SpriteKitEasingSwiftTests;
 			sourceTree = "<group>";
 		};
 		3665FD3D1A93D8A0000D488C /* Supporting Files */ = {
@@ -362,7 +360,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SpriteKit-Easing-Swift/Info.plist";
+				INFOPLIST_FILE = SpriteKitEasingSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = SpriteKitEasingSwift;
@@ -379,7 +377,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SpriteKit-Easing-Swift/Info.plist";
+				INFOPLIST_FILE = SpriteKitEasingSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = SpriteKitEasingSwift;
@@ -398,7 +396,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SpriteKit-Easing-SwiftTests/Info.plist";
+				INFOPLIST_FILE = SpriteKitEasingSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = SpriteKitEasingSwiftTests;
 			};
@@ -411,7 +409,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SpriteKit-Easing-SwiftTests/Info.plist";
+				INFOPLIST_FILE = SpriteKitEasingSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = SpriteKitEasingSwiftTests;
 			};
