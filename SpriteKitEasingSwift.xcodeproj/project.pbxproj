@@ -13,6 +13,7 @@
 		3665FD531A93DEF5000D488C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD521A93DEF5000D488C /* SpriteKit.framework */; };
 		3665FD571A93E29D000D488C /* SKAction+Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD561A93E29D000D488C /* SKAction+Easing.swift */; };
 		3665FD591A93E374000D488C /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665FD581A93E374000D488C /* Easing.swift */; };
+		3665FD5D1A955A43000D488C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3665FD5C1A955A43000D488C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		3665FD521A93DEF5000D488C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		3665FD561A93E29D000D488C /* SKAction+Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Easing.swift"; sourceTree = "<group>"; };
 		3665FD581A93E374000D488C /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
+		3665FD5C1A955A43000D488C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3665FD5D1A955A43000D488C /* QuartzCore.framework in Frameworks */,
 				3665FD531A93DEF5000D488C /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +71,7 @@
 		3665FD231A93D8A0000D488C = {
 			isa = PBXGroup;
 			children = (
+				3665FD5C1A955A43000D488C /* QuartzCore.framework */,
 				3665FD521A93DEF5000D488C /* SpriteKit.framework */,
 				3665FD491A93DC66000D488C /* LICENSE */,
 				3665FD4A1A93DC66000D488C /* README.md */,
