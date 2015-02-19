@@ -8,13 +8,11 @@ SpriteKit by default uses the easing curve built by Apple into iOS. While this i
 
 This port was created to be a 100% swift dynamic library, additionally extra care was taken to try to make the code readable and easy to understand. 
 
-SpriteKitEasingSwift currently contains the these functions, more will be added soon!
+SpriteKitEasingSwift currently contains the these functions
 
 Current functions:
 * Linear 
 * Quadratic 
-
-To be completed:
 * Cubic 
 * Quartic 
 * Quintic 
