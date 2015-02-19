@@ -35,12 +35,6 @@
 		3665FD3F1A93D8A0000D488C /* SpriteKit_Easing_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_Easing_SwiftTests.swift; sourceTree = "<group>"; };
 		3665FD491A93DC66000D488C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3665FD4A1A93DC66000D488C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3665FD4C1A93DC66000D488C /* easing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
-		3665FD4D1A93DC66000D488C /* easing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
-		3665FD4E1A93DC66000D488C /* EasingDeclarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasingDeclarations.h; sourceTree = "<group>"; };
-		3665FD4F1A93DC66000D488C /* SKEase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEase.h; sourceTree = "<group>"; };
-		3665FD501A93DC66000D488C /* SKEase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEase.m; sourceTree = "<group>"; };
-		3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit-Easing-Prefix.pch"; sourceTree = "<group>"; };
 		3665FD521A93DEF5000D488C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		3665FD561A93E29D000D488C /* SKAction+Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Easing.swift"; sourceTree = "<group>"; };
 		3665FD581A93E374000D488C /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
@@ -75,7 +69,6 @@
 				3665FD521A93DEF5000D488C /* SpriteKit.framework */,
 				3665FD491A93DC66000D488C /* LICENSE */,
 				3665FD4A1A93DC66000D488C /* README.md */,
-				3665FD4B1A93DC66000D488C /* SpriteKit-Easing */,
 				3665FD2F1A93D8A0000D488C /* SpriteKitEasingSwift */,
 				3665FD3C1A93D8A0000D488C /* SpriteKitEasingSwiftTests */,
 				3665FD2E1A93D8A0000D488C /* Products */,
@@ -125,19 +118,6 @@
 				3665FD3E1A93D8A0000D488C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3665FD4B1A93DC66000D488C /* SpriteKit-Easing */ = {
-			isa = PBXGroup;
-			children = (
-				3665FD4C1A93DC66000D488C /* easing.c */,
-				3665FD4D1A93DC66000D488C /* easing.h */,
-				3665FD4E1A93DC66000D488C /* EasingDeclarations.h */,
-				3665FD4F1A93DC66000D488C /* SKEase.h */,
-				3665FD501A93DC66000D488C /* SKEase.m */,
-				3665FD511A93DC66000D488C /* SpriteKit-Easing-Prefix.pch */,
-			);
-			path = "SpriteKit-Easing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
